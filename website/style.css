@@ -1,0 +1,78 @@
+#map {
+    height: 90%;
+    width: 100%;
+}
+
+body {
+    background-color: #3a755f;
+    margin: 0;
+    padding: 0;
+}
+
+#output {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    vertical-align: middle;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: inline;
+}
+
+li {
+    float: right;
+    cursor: default;
+}
+
+li div {
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #bee9c2;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px;
+    text-decoration: none;
+    cursor: default;
+}
+
+li div:hover {
+    color: #ddf184;
+    font-weight: bold;
+    cursor: default;
+}
+
+.dropdown {
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00482f;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-content div {
+    color: #bee9c2;
+    background-color: #00482f;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    padding-top: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #00482f;
+}
